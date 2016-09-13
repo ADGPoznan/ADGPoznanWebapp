@@ -19,5 +19,13 @@ def plus():
 def github():
     return redirect("https://github.com/ADGPoznan")
 
+@app.route('/jetbrains')
+def jetbrains():
+    return redirect("https://goo.gl/forms/Ola7S0KjIHOHyv652")
+
+@app.route('/mobilizacja')
+def mobilization():
+    return redirect("https://goo.gl/forms/rjvea0dj0OwFFzRR2")
+
 if __name__ == '__main__':
     app.run()

@@ -22,6 +22,7 @@ dev_appserver.py .
 ## Upload application
 
 ```bash
-cd webapp
-appcfg.py --oauth2 update .
+gcloud config set project adg-poznan
+gcloud preview datastore create-indexes webapp/index.yaml
+gcloud app deploy --no-promote webapp/app.yaml
 ```

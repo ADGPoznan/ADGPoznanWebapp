@@ -21,11 +21,11 @@ def github():
 
 @app.route('/jetbrains')
 def jetbrains():
-    return redirect("https://goo.gl/forms/Ola7S0KjIHOHyv652")
+    return redirect("https://goo.gl/forms/htms5gSSNR6zBELj1")
 
-@app.route('/mobilizacja')
+@app.route('/droidcon')
 def mobilization():
-    return redirect("https://goo.gl/forms/rjvea0dj0OwFFzRR2")
+    return redirect("https://goo.gl/forms/ikDXLUZF9P0GM9or2")
 
 if __name__ == '__main__':
     app.run()

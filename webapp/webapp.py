@@ -19,5 +19,9 @@ def plus():
 def github():
     return redirect("https://github.com/ADGPoznan")
 
+@app.route('/20')
+def adg20():
+    return redirect("https://github.com/ADGPoznan/meetup-notes/blob/master/adg-20.md")
+
 if __name__ == '__main__':
     app.run()

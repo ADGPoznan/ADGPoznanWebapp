@@ -19,7 +19,7 @@ def plus():
 def github():
     return redirect("https://github.com/ADGPoznan")
 
-@app.route('/<meetup>')
+@app.route('/m/<meetup>')
 def notes(meetup):
     return redirect("https://github.com/ADGPoznan/meetup-notes/blob/master/adg-{}.md".format(meetup))
 
